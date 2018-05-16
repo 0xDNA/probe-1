@@ -4,23 +4,23 @@
 #include <vulkan/vulkan.h>
 
 // Include demo functions from the commons directory
-#include "../00_commons/00_utils.h"
-#include "../00_commons/01_createVkInstance.h"
-#include "../00_commons/02_debugReportCallback.h"
-#include "../00_commons/03_createVkSurface.h"
-#include "../00_commons/04_chooseVkPhysicalDevice.h"
-#include "../00_commons/05_createVkDeviceAndVkQueue.h"
-#include "../00_commons/06_swapchain.h"
-#include "../00_commons/07_commandPoolAndBuffer.h"
-#include "../00_commons/08_createAndAllocateImage.h"
-#include "../00_commons/09_createAndAllocateBuffer.h"
-#include "../00_commons/10_submitimagebarrier.h"
-#include "../00_commons/11_loadimagefromfile.h"
+#include "00_commons/00_utils.h"
+#include "00_commons/01_createVkInstance.h"
+#include "00_commons/02_debugReportCallback.h"
+#include "00_commons/03_createVkSurface.h"
+#include "00_commons/04_chooseVkPhysicalDevice.h"
+#include "00_commons/05_createVkDeviceAndVkQueue.h"
+#include "00_commons/06_swapchain.h"
+#include "00_commons/07_commandPoolAndBuffer.h"
+#include "00_commons/08_createAndAllocateImage.h"
+#include "00_commons/09_createAndAllocateBuffer.h"
+#include "00_commons/10_submitimagebarrier.h"
+#include "00_commons/11_loadimagefromfile.h"
 
 #define GLM_FORCE_RADIANS
 #define GLM_FORCE_DEPTH_ZERO_TO_ONE
-#include "../00_commons/glm/glm/glm.hpp"
-#include "../00_commons/glm/glm/gtc/matrix_transform.hpp"
+#include "00_commons/glm/glm/glm.hpp"
+#include "00_commons/glm/glm/gtc/matrix_transform.hpp"
 
 #include "demo06rendersingleframe.h"
 #include "demo06createpipeline.h"
@@ -30,8 +30,8 @@
 #include "pushconstdata.h"
 
 // CreateRenderPass are the same as Demo 02
-#include "../02_triangle/demo02createrenderpass.h"
-#include "../02_triangle/demo02fillinitializationcommandbuffer.h"
+#include "02_triangle/demo02createrenderpass.h"
+#include "02_triangle/demo02fillinitializationcommandbuffer.h"
 
 // Includes for this file
 #include <iostream>
