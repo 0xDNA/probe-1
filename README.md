@@ -22,5 +22,5 @@ standards (e.g. ISO 26262).
 UUV Simulator is open-sourced under the Apache-2.0 license. See the
 [LICENSE](LICENSE) file for details.
 
-For a list of other open source components included in UUV Simulator, see the
+For a list of other open source components included in [UUV Simulator](https://github.com/uuvsimulator/uuv_simulator), see the
 file [3rd-party-licenses.txt](3rd-party-licenses.txt).
