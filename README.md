@@ -8,7 +8,7 @@ ROVs are unoccupied, highly maneuverable, and operated by a crew either aboard a
 
 ## Purpose of the project
 
-This software is a research prototype,  inherited from the EU ECSEL
+This software is based on  a research prototype,  inherited from the EU ECSEL
 Project 662107 [SWARMs](http://swarms.eu/).
 
 The software is not ready for production use. However, the license conditions of the
